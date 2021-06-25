@@ -1,0 +1,29 @@
+.container {
+  background: url("https://i.pinimg.com/originals/4c/96/ac/4c96ac502c60ec6089feb2b3179fab7a.jpg")
+    center center / cover no-repeat fixed;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.btnn {
+  padding: 10px 25px;
+  width: 20rem;
+  height: 4rem;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  background-color: rgba(1, 1, 1, 0.8);
+  border: 2px solid whitesmoke;
+  color: white;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.btnn:hover {
+  background-color: whitesmoke;
+  color: black;
+  border-color: black;
+}

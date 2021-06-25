@@ -1,0 +1,41 @@
+.form-field {
+  height: 2rem;
+  width: 25rem;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.btn {
+  padding: 10px 25px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  background-color: rgba(1, 1, 1, 0.6);
+  border: 2px solid whitesmoke;
+  color: white;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: whitesmoke;
+  color: black;
+  border-color: black;
+}
+
+.form-box {
+  margin-top: 10rem;
+}
+
+.form {
+  background: url("https://i.pinimg.com/originals/4c/96/ac/4c96ac502c60ec6089feb2b3179fab7a.jpg")
+    center center / cover no-repeat fixed;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  inset: 0px;
+  opacity: 1;
+  z-index: -1;
+}
